@@ -38,7 +38,7 @@
     [
    "&trans",      "&trans",     "&trans",     "&trans",      "&trans", "&trans",   "&trans",                                                                                  "&trans",    "&trans",    "&trans",      "&trans",     "&trans",     "&trans",         "&trans",
    "&trans",      "&trans",     "&trans",     "&trans",      "&trans", "&trans",   "&trans",                                                                                  "&trans",    "&trans",    "&trans",      "&trans",     "&trans",     "&trans",         "&trans",
-   "&trans", "&hm LCTRL A", "&hm LALT S", "&hm LCMR D", "&hm LSHFT F", "&trans",    "&none",               "&trans", "&trans",     "&trans", "&trans",                        "&to 0",     "&trans",    "&hm RSHFT J", "&hm RCMD K", "&hm RALT L", "&hm RCTRL SEMI", "&trans",
+   "&trans", "&hm LCTRL A", "&hm LALT S", "&hm LCMR D", "&hm LSHFT F", "&trans",   "&trans",               "&trans", "&trans",     "&trans", "&trans",                        "&to 0",     "&trans",    "&hm RSHFT J", "&hm RCMD K", "&hm RALT L", "&hm RCTRL SEMI", "&trans",
    "&trans",      "&trans",     "&trans",     "&trans",      "&trans", "&trans",                                     "&trans",     "&trans",                                               "&trans",    "&trans",      "&trans",     "&trans",     "&trans",         "&trans",
    "&trans",      "&trans",     "&trans",     "&trans",      "&trans",                           "&trans", "&trans", "&trans",     "&trans", "&trans", "&trans",                                        "&trans",      "&trans",     "&trans",     "&trans",         "&trans"
     ]
