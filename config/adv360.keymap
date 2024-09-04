@@ -91,7 +91,7 @@
             bindings = <
     &trans       &trans      &trans      &trans       &trans    &trans       &trans                                                                                     &trans       &trans       &trans       &trans      &trans       &trans          &trans
     &trans       &trans      &trans      &trans       &trans    &trans       &trans                                                                                     &trans       &trans       &trans       &trans      &trans       &trans          &trans
- &kp LCTRL  &hm LCTRL A  &hm LALT S  &hm LCMD D  &hm LSHFT F     &kp G       &trans                &trans  &trans            &trans  &trans                             &to DEFAULT  &kp H        &hm RSHFT J  &hm RCMD K  &hm RALT L   &hm RCTRL SEMI  &trans
+    &trans  &hm LCTRL A  &hm LALT S  &hm LCMD D  &hm LSHFT F     &kp G       &trans                &trans  &trans            &trans  &trans                             &to DEFAULT  &kp H        &hm RSHFT J  &hm RCMD K  &hm RALT L   &hm RCTRL SEMI  &trans
     &trans       &trans      &trans      &trans       &trans    &trans                                     &trans            &trans                                                  &trans       &trans       &trans      &trans       &trans          &trans
     &trans       &trans      &trans      &trans       &trans                               &trans  &trans  &trans            &trans  &trans  &trans                                               &trans       &trans      &trans       &trans          &trans
             >;
