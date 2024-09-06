@@ -20,7 +20,6 @@
 #define LAYFN   2
 #define LAYMOD  3
 #define LAYHM   4
-
 #define HYPER     LS(LC(LA(LCMD)))
 #define MEH       LS(LC(LALT))
 #define SHIFT_REV LS(LCTRL)
@@ -56,21 +55,21 @@
 
         layer_keypad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &trans     &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &trans     &trans  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans  &trans     &trans  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans    &trans  &kp KP_N0          &trans      &trans        &trans         &kp KP_DOT       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans     &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans     &trans  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                     &trans  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans        &trans         &kp KP_DOT       &trans
             >;
         };
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans                                      &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2     &kp F3             &kp F4        &kp F5        &kp F6     &trans                                      &trans  &kp F7     &kp F8     &kp F9    &kp F10    &kp F11    &kp F12
+&trans  &kp SQT    &kp DOUBLE_QUOTES  &kp LBKT      &kp RBKT      &kp AMPS   &trans                                      &trans  &kp GRAVE  &kp CARET  &kp BSLH  &kp PRCNT  &kp DLLR   &trans
+&trans  &kp MINUS  &kp PLUS           &kp LPAR      &kp RPAR      &kp PIPE   &trans  &trans  &trans      &trans  &trans  &trans  &kp COLON  &kp EXCL   &kp LT    &kp GT     &kp EQUAL  &trans
+&trans  &kp FSLH   &kp STAR           &kp LS(LBKT)  &kp LS(RBKT)  &kp TILDE                  &trans      &trans                  &trans     &trans     &trans    &trans     &trans     &trans
+&trans  &trans     &trans             &trans        &trans                   &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans    &trans     &trans     &trans
             >;
         };
 
@@ -89,8 +88,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans       &trans  &trans  &trans  &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans       &trans  &trans  &trans  &trans  &trans    &trans
 &trans  &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans      &trans  &trans  &to DEFAULT  &trans  &kp J   &kp K   &kp L   &kp SEMI  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans               &trans  &trans  &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans               &trans  &trans  &trans  &trans    &trans
             >;
         };
     };
