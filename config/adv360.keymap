@@ -59,7 +59,7 @@
 &trans  &kp C_VOL_UP      &kp F7   &kp F8   &kp F9   &trans  &trans                                      &trans     &trans  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
 &trans  &kp C_VOL_DN      &kp F4   &kp F5   &kp F6   &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
 &trans  &kp K_MUTE        &kp F1   &kp F2   &kp F3   &trans                  &trans      &trans                     &trans  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
-&trans  &trans            &trans   &trans   &trans           &trans  &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans        &trans         &kp KP_DOT       &trans
+&trans  &trans            &trans   &trans   &trans           &trans  &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans        &kp KP_DOT     &trans           &trans
             >;
         };
 
