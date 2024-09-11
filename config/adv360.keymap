@@ -38,7 +38,8 @@
         okl: outer_key_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "Outer_Key_Layer";
-            bindings = <&to>, <&kp>;
+            bindings = <&mo>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
@@ -52,11 +53,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL        &kp N1       &kp N2      &kp N3      &kp N4       &kp N5  &mo LAYALT                                                                     &mo LAYMOD   &kp N6  &kp N7       &kp N8      &kp N9      &kp N0          &kp MINUS
-&kp TAB          &kp Q        &kp W       &kp E       &kp R        &kp T   &none                                                                          &none        &kp Y   &kp U        &kp I       &kp O       &kp P           &kp BSLH
-&okl LAYSYM ESC  &hm LCTRL A  &hm LALT S  &hm LCMD D  &hm LSHFT F  &kp G   &mo LAYSYM  &kp LCMD  &kp LALT                    &kp RCTRL      &hm RCMD ESC  &mo LAYSYM   &kp H   &hm RSHFT J  &hm RCMD K  &hm RALT L  &hm RCTRL SEMI  &okl LAYSYM SQT
-&kp LSHFT        &kp Z        &kp X       &kp C       &kp V        &kp B                         &hm LS(LC(LALT)) LC(B)      &kp RG(LSHFT)                             &kp N   &kp M        &kp COMMA   &kp DOT     &kp FSLH        &kp RSHFT
-&mo LAYSYM       &kp GRAVE    &kp CAPS    &kp LEFT    &kp RIGHT            &kp SPACE   &kp BSPC  &kp LS(LA(LC(LCMD)))        &kp LA(LSHFT)  &kp ENTER     &kp SPACE            &kp UP       &kp DOWN    &kp LBKT    &kp RBKT        &mo LAYSYM
+&kp EQUAL        &kp N1       &kp N2      &kp N3      &kp N4       &kp N5  &mo LAYALT                                                                     &mo LAYMOD  &kp N6  &kp N7       &kp N8      &kp N9      &kp N0          &kp MINUS
+&kp TAB          &kp Q        &kp W       &kp E       &kp R        &kp T   &none                                                                          &none       &kp Y   &kp U        &kp I       &kp O       &kp P           &kp BSLH
+&okl LAYSYM ESC  &hm LCTRL A  &hm LALT S  &hm LCMD D  &hm LSHFT F  &kp G   &mo LAYSYM  &kp LCMD  &kp LALT                    &kp RCTRL      &hm RCMD ESC  &mo LAYSYM  &kp H   &hm RSHFT J  &hm RCMD K  &hm RALT L  &hm RCTRL SEMI  &okl LAYSYM SQT
+&kp LSHFT        &kp Z        &kp X       &kp C       &kp V        &kp B                         &hm LS(LC(LALT)) LC(B)      &kp RG(LSHFT)                            &kp N   &kp M        &kp COMMA   &kp DOT     &kp FSLH        &kp RSHFT
+&mo LAYSYM       &kp GRAVE    &kp CAPS    &kp LEFT    &kp RIGHT            &kp SPACE   &kp BSPC  &kp LS(LA(LC(LCMD)))        &kp LA(LSHFT)  &kp ENTER     &kp SPACE           &kp UP       &kp DOWN    &kp LBKT    &kp RBKT        &mo LAYSYM
             >;
         };
 
