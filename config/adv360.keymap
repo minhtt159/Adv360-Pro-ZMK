@@ -73,11 +73,11 @@
 
         layer_sym {
             bindings = <
-&trans    &kp GRAVE  &kp LPAR   &kp RPAR   &kp SEMI  &kp COMMA  &trans                                            &trans  &trans    &trans     &trans     &trans    &trans    &trans
-&kp EXCL  &kp LBRC   &kp SQT    &kp DQT    &kp RBRC  &kp QMARK  &trans                                            &trans  &kp SEMI  &kp LPAR   &kp RPAR   &kp LBKT  &kp RBKT  &trans
-&kp HASH  &kp CARET  &kp EQUAL  &kp UNDER  &kp DLLR  &kp STAR   &trans     &trans     &trans      &trans  &trans  &trans  &kp DOT   &kp COLON  &kp EQUAL  &kp GT    &kp SEMI  &trans
-&kp AT    &kp LT     &kp PIPE   &kp MINUS  &kp GT    &kp FSLH                         &trans      &trans                  &kp STAR  &kp BSLH   &kp COMMA  &kp DOT   &kp FSLH  &trans
-&trans    &kp AMPS   &kp LBKT   &kp RBKT   &kp PLUS             &kp PRCNT  &kp COLON  &trans      &trans  &trans  &trans            &trans     &trans     &trans    &trans    &trans
+&trans    &kp GRAVE  &kp LPAR   &kp RPAR   &kp SEMI  &kp COMMA  &trans                                            &trans  &trans    &trans     &trans     &trans    &trans     &trans
+&kp EXCL  &kp LBRC   &kp SQT    &kp DQT    &kp RBRC  &kp QMARK  &trans                                            &trans  &kp SEMI  &kp COLON  &kp EQUAL  &kp LBKT  &kp RBKT   &trans
+&kp HASH  &kp CARET  &kp EQUAL  &kp UNDER  &kp DLLR  &kp STAR   &trans     &trans     &trans      &trans  &trans  &trans  &kp DOT   &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
+&kp AT    &kp LT     &kp PIPE   &kp MINUS  &kp GT    &kp FSLH                         &trans      &trans                  &kp STAR  &kp BSLH   &trans     &trans    &trans     &trans
+&trans    &kp AMPS   &kp LBKT   &kp RBKT   &kp PLUS             &kp PRCNT  &kp COLON  &trans      &trans  &trans  &trans            &trans     &trans     &trans    &trans     &trans
             >;
         };
 
