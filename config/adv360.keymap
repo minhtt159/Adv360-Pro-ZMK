@@ -53,11 +53,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL        &kp N1       &kp N2      &kp N3      &kp N4       &kp N5  &mo LAYALT                                                                 &mo LAYMOD  &kp N6  &kp N7       &kp N8      &kp N9      &kp N0          &kp MINUS
-&kp TAB          &kp Q        &kp W       &kp E       &kp R        &kp T   &none                                                                      &none       &kp Y   &kp U        &kp I       &kp O       &kp P           &kp BSLH
-&okl LAYSYM ESC  &hm LCTRL A  &hm LALT S  &hm LCMD D  &hm LSHFT F  &kp G   &mo LAYSYM  &kp LCMD  &kp LALT                    &kp RCTRL  &hm RCMD ESC  &mo LAYSYM  &kp H   &hm RSHFT J  &hm RCMD K  &hm RALT L  &hm RCTRL SEMI  &okl LAYSYM SQT
-&kp LSHFT        &kp Z        &kp X       &kp C       &kp V        &kp B                         &hm LS(LC(LALT)) LC(B)      &kp PG_UP                            &kp N   &kp M        &kp COMMA   &kp DOT     &kp FSLH        &kp RSHFT
-&mo LAYSYM       &kp GRAVE    &kp CAPS    &kp LEFT    &kp RIGHT            &kp SPACE   &kp BSPC  &kp LS(LA(LC(LCMD)))        &kp PG_DN  &kp ENTER     &kp SPACE           &kp UP       &kp DOWN    &kp LBKT    &kp RBKT        &mo LAYSYM
+&kp EQUAL   &kp N1       &kp N2      &kp N3      &kp N4       &kp N5  &mo LAYALT                                                                     &mo LAYMOD  &kp N6  &kp N7       &kp N8      &kp N9      &kp N0          &kp MINUS
+&kp TAB     &kp Q        &kp W       &kp E       &kp R        &kp T   &none                                                                          &none       &kp Y   &kp U        &kp I       &kp O       &kp P           &kp BSLH
+&kp ESC     &hm LCTRL A  &hm LALT S  &hm LCMD D  &hm LSHFT F  &kp G   &mo LAYSYM  &kp LCMD  &kp LALT                     &kp RCTRL     &hm RCMD ESC  &mo LAYSYM  &kp H   &hm RSHFT J  &hm RCMD K  &hm RALT L  &hm RCTRL SEMI  &kp SQT
+&kp LSHFT   &kp Z        &kp X       &kp C       &kp V        &kp B                         &hm LS(LC(LALT)) LC(B)       &kp PG_UP                               &kp N   &kp M        &kp COMMA   &kp DOT     &kp FSLH        &kp RSHFT
+&mo LAYSYM  &kp GRAVE    &kp CAPS    &kp LEFT    &kp RIGHT            &kp SPACE   &kp BSPC  &okl 2 LS(LC(LA(LCMD)))      &okl 2 PG_DN  &kp ENTER     &kp SPACE           &kp UP       &kp DOWN    &kp LBKT    &kp RBKT        &mo LAYSYM
             >;
         };
 
@@ -73,11 +73,11 @@
 
         layer_sym {
             bindings = <
-&trans    &kp GRAVE  &kp LPAR   &kp RPAR   &kp SEMI  &kp COMMA  &trans                                            &trans  &trans    &trans     &trans     &trans    &trans     &trans
-&kp EXCL  &kp LBRC   &kp SQT    &kp DQT    &kp RBRC  &kp QMARK  &trans                                            &trans  &kp SEMI  &kp COLON  &kp EQUAL  &kp LBKT  &kp RBKT   &trans
-&kp HASH  &kp CARET  &kp EQUAL  &kp UNDER  &kp DLLR  &kp STAR   &trans     &trans     &trans      &trans  &trans  &trans  &kp DOT   &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&kp AT    &kp LT     &kp PIPE   &kp MINUS  &kp GT    &kp FSLH                         &trans      &trans                  &kp STAR  &kp BSLH   &trans     &trans    &trans     &trans
-&trans    &kp AMPS   &kp LBKT   &kp RBKT   &kp PLUS             &kp PRCNT  &kp COLON  &trans      &trans  &trans  &trans            &trans     &trans     &trans    &trans     &trans
+&trans     &kp GRAVE  &kp LPAR   &kp RPAR   &kp SEMI  &kp COMMA  &trans                                            &trans  &trans    &trans     &trans     &trans    &trans     &trans
+&kp EXCL   &kp LBRC   &kp SQT    &kp DQT    &kp RBRC  &kp QMARK  &trans                                            &trans  &kp SEMI  &kp COLON  &kp EQUAL  &kp LBKT  &kp RBKT   &trans
+&kp HASH   &kp CARET  &kp EQUAL  &kp UNDER  &kp DLLR  &kp STAR   &trans     &trans     &trans      &trans  &trans  &trans  &kp DOT   &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
+&kp AT     &kp LT     &kp PIPE   &kp MINUS  &kp GT    &kp FSLH                         &trans      &trans                  &kp STAR  &kp BSLH   &trans     &trans    &trans     &trans
+&kp TILDE  &kp AMPS   &kp LBKT   &kp RBKT   &kp PLUS             &kp PRCNT  &kp COLON  &trans      &trans  &trans  &trans            &trans     &trans     &trans    &trans     &trans
             >;
         };
 
