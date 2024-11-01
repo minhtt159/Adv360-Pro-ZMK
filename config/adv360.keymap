@@ -30,9 +30,10 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <175>;
-            quick_tap_ms = <150>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <150>;
         };
 
         okl: outer_key_layer {
@@ -83,11 +84,11 @@
 
         layer_mod {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none           &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none           &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &macro_ver    &macro_kinesis  &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none                         &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none     &none      &none
+&none  &none         &none         &none         &none           &none         &bootloader                                            &bootloader             &none  &none       &none       &none     &none      &none
+&none  &kp LEFT      &kp UP        &kp DOWN      &kp RIGHT       &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &kp RSHIFT  &kp RCMD    &kp RALT  &kp RCTRL  &none
+&none  &none         &none         &macro_ver    &macro_kinesis  &none                             &none      &none                                           &none  &none       &none       &none     &none      &none
+&none  &none         &none         &none         &none                         &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none     &none      &none
             >;
         };
     };
